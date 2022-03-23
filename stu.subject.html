@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Web sitet</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   
+    <link rel="stylesheet" href="subject.css">
+    <style>
+        .first {
+            
+            margin-left: 2%;
+            background-color: aliceblue;
+            font-size: 20px;
+        }
+    </style>
+    <header>
+      
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Students 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="stu.data.html">Students data</a>
+      <a href="stu.regist.html">Students Register</a>
+      <a href="stu.subject.html">Students Subject</a>
+      <a href="result.html">Result</a>
+
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Manger 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="MangerTable.html">Manger</a>
+      <a href="adminTable.html">Admin</a>
+      <a href="DivisionTable.html">Division</a>
+      
+
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Teacher
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="teacherTable.html">Teacher</a>
+      <a href="classes.html">Classes</a>
+      <a href="subjectSchool.html">Subject School</a>
+      
+
+    </div></div>
+    
+    <a href="project.html">project</a>
+    <a href="cv.html">CV</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">LogIn</a>
+  <a href="singup.html">SingUp</a>
+
+
+  <form class="search">
+    <input type="text" placeholder="search">
+    <button>search</button>
+</form>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+   
+</head>
+
+<body bgcolor="aliceblue">
+
+    <div class="first">
+        <fieldset style="margin-top: 4%;">
+            <legend style="font-size: 30px;"> Student Subject: </legend><br>
+            Student Number: <input type="number" placeholder="student number" maxlength="30px" size="30" name="T-No" required> &nbsp; &nbsp; &nbsp;
+            Courses Number: <input type="number" placeholder=" cours number" maxlength="10px" size="10" name="T-Name" required> &nbsp; &nbsp; &nbsp;
+
+            Class Number: <input type="number" placeholder="class number" maxlength="10px" size="10" name="Appo-date" required>&nbsp; &nbsp; &nbsp;<br><br>
+            Year: <input type="datetime" placeholder="date" maxlength="30px" size="14" name="T-phone" required> &nbsp; &nbsp; &nbsp;
+            Register Date: <input type="date" placeholder=" data" maxlength="10px" size="10" name="T-Name" required> &nbsp; &nbsp; &nbsp;<br><br>
+
+      
+<button class="btn"><i class="fa fa-save"></i> Save</button>
+<button class="btn"><i class="fa fa-edit"></i> new</button>
+<button class="btn"><i class="fa fa-edit"></i> Update</button>
+<button class="btn"><i class="fa fa-remove"></i> remove</button>
+
+    </div>
+    <fieldset style="margin-top: 4%; margin-left: 2%;
+    background-color: aliceblue;">
+
+        <table>
+            <legend style=" font-size: 30px;"> Student Subject Table :</legend> <br>
+            <thead>
+                <tr>
+                    <th rowspan="2">number</th>
+                    <th rowspan="2"> Student Number </th>
+                    <th rowspan="2"> Course Number</th>
+                    <th rowspan="2"> Year </th>
+                    <th rowspan="2"> Register Date </th>
+
+                    
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="data">1</td>
+                    <td class="data">
+
+                    </td>
+                    
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data">2</td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data"> 3</td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data"> 4</td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    
+                    <td class="data"></td>
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data">5</td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br><br>
+        <span style="margin-left: 5%;">
+          
+      
+          <button class="btn"><i class="fa fa-save"></i> save</button>
+          <button class="btn"><i class="fa fa-remove"></i> remove</button>
+
+
+        </span>
+    </fieldset>
+    </div>
+
+
+
+
+    
+
+<footer>
+    <div id="footer">
+        <a href=""></a>
+        <small>
+            <h5>all copyrights @ 2022</h5>
+        </small>
+    </div>
+    <div class="social">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+  </div>
+</footer>
+
+</body>
+
+
+</html>

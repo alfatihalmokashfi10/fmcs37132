@@ -1,0 +1,538 @@
+
+Body{
+
+    Margin: 0;
+
+    Padding: 0;
+
+    Font-family: sans-serif;
+
+    Background:url('https://prmceam.ac.in/wp-content/uploads/2017/05/background-learner1.jpg');
+
+    }
+
+    
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  .search{
+      margin-top: 15px;
+      float: right;
+      margin-right: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  /* Style buttons */
+  .btn {
+      border-radius: 30px;
+      background-color: DodgerBlue; /* Blue background */
+      border: none; /* Remove borders */
+      color: white; /* White text */
+      padding: 8px 14px; /* Some padding */
+      font-size: 14px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+.box {
+
+    Position: absolute;
+
+    Top: 60%;
+
+    Left: 50%;
+
+    Transform: translate(-50%,-50%);
+
+    Width: 360px;
+
+    Height: 470px;
+
+    Padding: 40px;
+
+    Background: rgba(0, 0, 0, .8);
+
+    Box-sizing: border-box;
+
+    Box-shadow: 0 15px 25px rgba(0,0,0,.5);
+
+    Border-radius:10px;
+
+    }
+
+
+
+.logo{
+
+    Margin: 0;
+
+    Padding: 0;
+
+    Position: absolute;
+
+    Background:#1E1E1E;
+
+    Border: #fff solid 8px;
+
+    Border-radius: 50%;
+
+    Top: -70px;
+
+    Left: 115px;
+
+    Width: 100px;
+
+    }
+
+
+
+.box h2{
+
+    Margin: 0 0 30px;
+
+    Position: relative;
+
+    Font-family:'Courier New', Courier, monospace;
+
+    Top: 20px;
+
+    Padding: 0;
+
+    Color: #fff;
+
+    Text-align: center;
+    Text-transform:uppercase ;
+
+    }
+
+
+
+.box .inputBox{
+
+    Position: relative;
+
+    Left: -20px;
+
+    }
+
+
+
+.box .inputBox input {
+
+    Width: 100%;
+
+    Padding: 10px 0;
+
+    Font-family: 'Courier New', Courier, monospace;
+
+    Font-size: 16px;
+
+    Color: #fff;
+
+    Letter-spacing: 1px;
+
+    Margin-bottom: 30px;
+
+    Border: none;
+
+    Border-bottom: 1px solid #aaa;
+
+    Outline: none;
+
+    Background: transparent;
+
+}
+
+
+
+.box .inputBox label{
+
+    Position: absolute;
+
+    Top: 0;
+
+    Left: 40px;
+
+    Padding: 10px 0;
+
+    Font-family:'Courier New', Courier, monospace;
+
+    Font-weight: bold;
+
+    Font-size: 14px;
+
+    Color: #fff;
+
+    Pointer-events: none;
+
+    Transition: .5s;
+
+}
+
+
+
+.inputBox i {
+
+    Position: absolute;
+
+    Left: 0;
+
+    Top: 8px;
+
+    Padding: 9px 8px;
+
+    Color: #aaa;
+
+    Transition: 0.3s;
+
+}
+
+
+
+.inputBox input[type="text"]:focus + i {
+
+    Color: dodgerBlue;
+
+}
+
+
+
+.inputBox input[type="password"]:focus + i {
+
+    Color: dodgerBlue;
+
+}
+
+
+
+.inputBox.inputIconBg i {
+
+    Background-color: #aaa;
+
+    Color: #fff;
+
+    Padding: 7px 4px;
+
+    Border-radius: 4px 0 0 0;
+
+}
+
+
+
+.inputBox.inputIconBg input[type="text"]:focus + i {
+
+    Color: #fff;
+
+    Background-color: dodgerBlue;
+
+}
+
+
+
+.inputBox.inputIconBg input[type="password"]:focus + i {
+
+    Color: #fff;
+
+    Background-color: dodgerBlue;
+
+}
+
+
+
+.inputBox input[type="text"]:focus{
+
+    Border-bottom: 1px solid oreange;
+
+}
+
+
+
+.inputBox input[type="password"]:focus{
+
+    Border-bottom: 1px solid dodgerBlue;
+
+}
+
+
+
+.box input[type="text"] {
+
+    Padding-left: 40px;
+
+}
+
+
+
+.box input[type="password"] {
+
+    Padding-left: 40px;
+
+}
+
+
+
+.box .inputBox input:focus ~ label,
+
+.box .inputBox input:valid ~ label{
+
+    Top: -20px;
+
+    Left: 0;
+
+    Color: #03a9f4;
+
+    Font-size: 12px;    
+
+}
+
+
+
+.box input[type="submit"]{
+
+    Position: absolute;
+
+    Border: none;
+
+    Outline: none;
+
+    Top: 410px;
+
+    Left: 255px;
+
+    Color: white;
+
+    Background: #03a9f4;
+
+    Padding: 10px 20px;
+
+    Cursor: pointer;
+
+    Border-radius: 5px;
+
+}
+
+
+
+.box input[type="submit"]:hover{
+
+    Background:#2980B9;
+
+}
+
+
+
+.fmpBtn{
+
+    Position: absolute;
+
+    Border: none;
+
+    Outline: none;
+
+    Top: 410px;
+
+    Left: 15px;
+
+    Color: white;
+
+    Background: #27AE60;
+
+    Padding: 10px 20px;
+
+    Cursor: pointer;
+
+    Border-radius: 5px;
+
+}
+
+
+
+.fmpBtn:hover{
+
+    Background:#4BCE6A;
+
+}
+
+
+
+.crtBtn{
+
+    Position: absolute;
+
+    Border: none;
+
+    Outline: none;
+
+    Top: 410px;
+
+    Left: 7%;
+
+    Color: #fff;
+
+    Background: #FF4500;
+
+    Border: 2px #fff double;
+
+    Padding: 10px 20px;
+
+    Cursor: pointer;
+
+    Border-radius: 5px;
+
+}
+
+
+
+.socialLogin{
+
+    Position: absolute;
+
+    Top: 350px;
+
+    Left: 30%;
+
+}
+
+
+
+.social1{
+
+    Color: #4C6EF5;
+
+    Font-size: 24px;
+
+    Margin: 10px;
+
+    Cursor:pointer;
+
+}
+
+
+
+.social2{
+
+    Color: #FD7E14;
+
+    Font-size: 24px;
+
+    Margin: 10px;
+
+    Cursor:pointer;
+
+}
+
+
+
+.social3{
+
+    Color: #BE4BDB;
+
+    Font-size: 24px;
+
+    Margin: 10px;
+
+    Cursor:pointer;
+
+}
+

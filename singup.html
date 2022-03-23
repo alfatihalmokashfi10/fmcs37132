@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title> SingUp </title>
+
+        <link rel="stylesheet" href="singup.css">
+         <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css>
+
+         <script language="JavaScript" src="singin.js"></script>
+   
+         <header>
+      
+            <div class="topnav" id="myTopnav">
+              <a href="index.html" class="active">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Students 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="stu.data.html">Students data</a>
+                  <a href="stu.regist.html">Students Register</a>
+                  <a href="stu.subject.html">Students Subject</a>
+                  <a href="result.html">Result</a>
+            
+                </div>
+              </div> 
+              <div class="dropdown">
+                <button class="dropbtn">Manger 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="MangerTable.html">Manger</a>
+                  <a href="adminTable.html">Admin</a>
+                  <a href="DivisionTable.html">Division</a>
+                  
+            
+                </div>
+              </div> 
+              <div class="dropdown">
+                <button class="dropbtn">Teacher
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="teacherTable.html">Teacher</a>
+                  <a href="classes.html">Classes</a>
+                  <a href="subjectSchool.html">Subject School</a>
+                  
+            
+                </div></div>
+                
+    
+    <a href="project.html">project</a>
+    <a href="cv.html">CV</a>
+              <a href="contact.html">Contact</a>
+              <a href="login.html">LogIn</a>
+              <a href="singup.html">SingUp</a>
+            
+            
+              <form class="search">
+                <input type="text" placeholder="search">
+                <button>search</button>
+            </form>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            
+            
+            
+            <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+               
+            </head>
+    <body>
+
+        <div class="box">
+
+            <img class="logo" src=https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/user-male-icon.png>
+
+            <h2>SingUp</h2>
+
+            <form>
+
+                <div class="inputBox inputIconBg">
+
+                    <input type="text" name="" required="">
+
+                    <i class="fas fa-user-circle"></i>
+
+                    <label>Username</label>
+
+                </div>
+
+                <div class="inputBox inputIconBg">
+
+                    <input type="email" name="" required="">
+
+                    <i class="fas fa-user-circle"></i>
+
+                    <label>Email</label>
+
+                </div>
+
+                <div class="inputBox inputIconBg">
+
+                    <input type="password" name="" required="">
+
+                    <i class="fas fa-key"></i>
+
+                    <label>Password</label>
+
+                </div>
+
+                <div class="inputBox inputIconBg">
+
+                    <input type="password" name="" required="">
+
+                    <i class="fas fa-key"></i>
+
+                    <label> return Password</label>
+
+                </div>
+
+                <input class="crtBtn"  type="submit" name="" value="SingUp" >
+
+                <input class="crtBtn" type="submit" name="" value="LogIn" >
+
+                <div class="socialLogin">
+
+                    <i class="social1 fab fa-facebook-square"></i>
+
+                    <i class="social2 fab fa-google-plus-square"></i>
+
+                    <i class="social3 fab fa-linkedin"></i>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
+

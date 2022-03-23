@@ -1,0 +1,251 @@
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  color: #333;
+  float: left;
+  overflow: hidden;
+  background: #333;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.search{
+    margin-top: 15px;
+    float: right;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* Style buttons */
+.btn {
+    border-radius: 30px;
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 8px 14px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+Body{background-color:#fff;}
+
+.data{
+    text-align: center;
+
+}
+
+Table{
+
+    width: 900px;
+    height: 100px;
+    Border-radius:20px 20px 20px 20px;
+}
+Th{
+    Background-color:deepskyblue;
+}
+Td{
+    Background-color:skyblue;
+}
+.social{
+
+  Position: relative;
+
+  Text-align: center;
+
+  Top: -98px;
+
+}
+
+.fa-facebook, .fa-twitter, .fa-google-plus, .fa-whatsapp{
+
+  Border: 7px solid #777;
+
+  Border-radius: 50%;
+
+
+  Padding: 10px;
+
+  Box-sizing: border-box;
+
+  Margin-right: 7px;
+
+  Margin-left: 7px;
+
+  Transition: 0.5s;
+
+}
+
+.fa-google-plus{
+
+  Padding: 6px 4px;
+
+}
+
+.fa-facebook:hover{
+
+  Color: #fff;
+
+  Background: #3C4AB9;
+
+  Border-color: #3C4AB9;
+
+}
+
+.fa-twitter:hover{
+
+  Color: #fff;
+
+  Background: #1da1f2;
+
+  Border-color: #1da1f2;
+
+}
+
+.fa-google-plus:hover{
+
+  Color: #fff;
+
+  Background: #DD4B39;
+
+  Border-color: #DD4B39;
+
+}
+
+.fa-whatsapp:hover{
+
+  Color: #fff;
+
+  Background: green;
+
+  Border-color:green;
+
+}
+
+Hr{
+
+  Position: relative;
+
+  Top: -45px;
+
+  Background: #fff;
+
+  Width: 0;
+
+  Height: 5px;
+
+  Animation: anim 2s forwards linear;
+
+  Border: none;
+
+}
+
+@keyframes anim{
+
+  100%{width: 130px;}
+
+}
+footer{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 10.42857142857143;
+  color: rgb(107, 10, 235);
+  padding: 10px;
+  text-align: center;}
